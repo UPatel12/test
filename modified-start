@@ -23,3 +23,5 @@ COMMAND='ipython notebook --no-browser --ip=* 2>&1'
 FINAL_COMMAND=$(echo "${COMMAND}" | sed "s/--ip=\\*/--ip=${IP_ADDR}/")
  
 eval ${FINAL_COMMAND}
+#testing
+#testing
